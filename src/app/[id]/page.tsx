@@ -108,7 +108,7 @@ function ProductPage() {
 
                 <div className="w-1/2 max-lg:w-full lg:h-fit lg:rounded lg:px-2 lg:pb-[100px] lg:pt-2 lg:shadow-lg">
                   {/* Info  */}
-                  <div className="grid w-full grid-cols-2 gap-3 rounded p-1 max-lg:shadow-lg">
+                  <div className="grid w-full grid-cols-1 gap-3 rounded p-1 max-lg:shadow-lg">
                     <h1 className="text-2xl">{data.title}</h1>
 
                     <p
@@ -147,13 +147,13 @@ function ProductPage() {
                 </div>
 
                 {/* Comments */}
-                <div className="flex w-full flex-col gap-3">
+                {/* {<div className="flex w-full flex-col gap-3">
                   <div className="flex justify-between">
                     <h2 className="text-2xl font-semibold">Comments</h2>
                     <AddComment handleAddComment={handleAddComment} />
                   </div>
                   <Comments comments={comments} />
-                </div>
+                </div>} */}
               </div>
             </>
           )}

@@ -40,7 +40,7 @@ function NavBar() {
         />
         <NavbarBrand>
           <Link href="/" onClick={() => setIsMenuOpen(false)}>
-            <h1 className="text-2xl font-bold text-primary">A1-Services</h1>
+            <h1 className="text-2xl font-bold text-primary">Premier Lux</h1>
           </Link>
         </NavbarBrand>
       </NavbarContent>
